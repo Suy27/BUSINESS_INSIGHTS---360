@@ -74,6 +74,73 @@ Sometimes business managers may give a data analyst a very rough requirements fo
 - Who are all will be using this dashboard and for what purpose?
 - Is there any feedback from stakeholders on the design and views of the dashboard?
 ### Discovering Datasets
+Lets get a good understanding of data provided. Before we proceed further for analysis.
+
+Dimension table : This table contains the static data like details of customers and products. Dimension tables contain descriptive attributes that provide context for the facts in the fact table.  
+Fact table : It will have the data about the transactions. Fact tables store quantitative data like sales, cost, and profit.
+
+  - gdb041:
+    - dim_customer
+      - **27** distinct markets (e.g India, Australia, Spain)
+      - **75** distinct customers thorough out the market
+      - **2** types of platforms
+        - Brick & Mortars - Physical/offline store
+        - E-commerce - Online Store (Amazon, flipkart)
+      - Three channels
+        - Retailer
+        - Direct
+        - Distributors
+    - dim_market
+       - **27** distinct markets (e.g India, Australia, Spain)
+       - **7** subzones 
+       - **4** regions
+          - APAC 
+          - EU
+          - NAN
+          - LATAM
+     - dim_product
+       - Divisions
+        - P & A
+          - Peripherals
+          - Accessories
+        - PC
+          - Notebook
+          - Desktop
+        - N & S
+          - Networking
+          - Storage
+      - There are 14 different categories, Like Internal HDD, keyboard
+      - There are different variants available for the same product
+   - fact_forecast_monthly
+     - This table is used to forecast the customer’s need in advance, which can help in
+        - Higher customer satisfaction
+        - Reduced cost in warehouses for storage purpose
+     - The table is denormalized by data engineering team, as it is a data warehouse which is aimed to be used for analytical work.
+    - All the date of the month will be replaced by the start date of the month
+    - It will have all the column names and in the end it will have the forecast quantity need of the customer
+   - fact_sales_monthly
+     - This table is more or less is same as fact_forecase_monthly table, but the last column has the value of sold quantity instead of forecast value.
+  
+
+ - gdb056
+   - freight_cost
+      - This table has details of shipping and other cost for each market with fiscal year
+   - gross_price
+      - Details of gross prices with product code
+   - manufacturing_cost
+     - Details of manufacturing cost with product code with year
+   - Pre_invoice_dedutions
+     - Details of pre invoice deductions percentage for each cutomer with year
+   - Post_invoice_deductions
+     - Post invoice deductions and other deductions details
+### Importing Data to PowerBI
+ - As the database is in MySQL for this project. We need to import the datasets from Mysql database to PowerBI by providing the Database access credentials using MySQL workbench
+### Data Model
+ - Data modeling is important because it helps organize and structure data, which improves data quality, reduces errors, and improves performance.
+ - For this project [Snowflake](https://en.wikipedia.org/wiki/Snowflake_schema) Schema has been followed. 
+
+
+
 
 
  

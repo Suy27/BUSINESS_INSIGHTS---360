@@ -195,7 +195,7 @@ In Home View all the buttons are available with brief details of the visuals. En
 
 ### Conclusion 
 This report can now be used to take several key decisions based on the insights found with data. This will help to answer not only to known problems. But can figure out problems which are not known and find optimal strategies to address them.
-You can find the report here().
+You can find the report [here](https://github.com/Suy27/BUSINESS_INSIGHTS---360/blob/main/Report/BI-360.pbix).
 
 
 

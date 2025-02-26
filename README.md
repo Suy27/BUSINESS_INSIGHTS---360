@@ -48,13 +48,13 @@ I had completed this project by following the Codebasics PowerBI Course. You can
  - Gross Margin (GM)
  - Net Sales (NS)
  - Net Profit (NP)
-COGC - Cost Of Goods Sold
-YTD - Year To Date
-YTG - Year To Go
-Direct
-Retailer
-Distributors
-Consumer
+ - COGC - Cost Of Goods Sold
+ - YTD - Year To Date
+ - YTG - Year To Go
+ - Direct
+ - Retailer
+ - Distributors
+ - Consumer
  ## About Company
 AltiQ hardware is a company which has grown vastly in the recent years, and opened business all over the globe. It is a company which sells, computer and computer accessories through three mediums/channel
  - Retailers

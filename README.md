@@ -159,7 +159,56 @@ And after getting further feedback we also get another request to build an addit
 
 After long hours of hardwork. The Output - 
 
-Home View
+### Home View
+In Home View all the buttons are available with brief details of the visuals. End user can access specific pages with the buttons provided.
+ - Info
+ - Support
+ - Finance View
+ - Sales View
+ - Marketing View
+ - Supply chain View
+ - Executive View
+ - Feature Request
+
+**Note**: Feature Request is an another additional requirement given by Mr. Hariyali (Sales Director) for product analysis with specific requirements.
+### Home, Information and Support View
+
+<img width="838" alt="Home View" src="https://github.com/Suy27/BUSINESS_INSIGHTS---360/blob/main/Resources/Home%2C%20Info%20and%20Support.gif" />
+
+### Finance View
+<img width="838" alt="Finance View" src="https://github.com/Suy27/BUSINESS_INSIGHTS---360/blob/main/Resources/Fin%20View.gif" />
+
+### Sales View
+<img width="838" alt="Sales View" src="https://github.com/Suy27/BUSINESS_INSIGHTS---360/blob/main/Resources/Sales%20View.gif" />
+
+### Markeing View
+<img width="838" alt="Marketing View" src="https://github.com/Suy27/BUSINESS_INSIGHTS---360/blob/main/Resources/Marketing%20View.gif" />
+
+### Supply Chain View
+<img width="838" alt="Supply Chain View" src="https://github.com/Suy27/BUSINESS_INSIGHTS---360/blob/main/Resources/Marketing%20View.gif" />
+
+### Executive View
+<img width="838" alt="Executive View" src="https://github.com/Suy27/BUSINESS_INSIGHTS---360/blob/main/Resources/Executive%20View.gif" />
+
+### Feature Request
+<img width="838" alt="Feature Request" src="https://github.com/Suy27/BUSINESS_INSIGHTS---360/blob/main/Resources/Feature%20Request.gif" />
+
+### Conclusion 
+This report can now be used to take several key decisions based on the insights found with data. This will help to answer not only to known problems. But can figure out problems which are not known and find optimal strategies to address them.
+You can find the report here().
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

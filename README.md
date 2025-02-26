@@ -185,7 +185,7 @@ In Home View all the buttons are available with brief details of the visuals. En
 <img width="838" alt="Marketing View" src="https://github.com/Suy27/BUSINESS_INSIGHTS---360/blob/main/Resources/Marketing%20View.gif" />
 
 ### Supply Chain View
-<img width="838" alt="Supply Chain View" src="https://github.com/Suy27/BUSINESS_INSIGHTS---360/blob/main/Resources/Marketing%20View.gif" />
+<img width="838" alt="Supply Chain View" src="https://github.com/Suy27/BUSINESS_INSIGHTS---360/blob/main/Resources/Supply%20Chain%20View.gif" />
 
 ### Executive View
 <img width="838" alt="Executive View" src="https://github.com/Suy27/BUSINESS_INSIGHTS---360/blob/main/Resources/Executive%20View.gif" />

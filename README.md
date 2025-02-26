@@ -60,6 +60,7 @@ AltiQ hardware is a company which has grown vastly in the recent years, and open
  - Retailers
  - Direct
  - Distributors
+
 Recently the company has faced a unforeseen loss by opening store in America based on the surveys, intuition and some excel analysis and also the company’s competitors has handful of analytics team to perform analysis and make data driven decision. So, the AltiQ hardware has no other option other than building their analytics team for data driven insights and decisions in the future to survive competitively in the industry.
 ## Things to consider before starting to build the project
 Sometimes business managers may give a data analyst a very rough requirements for the projects. Then its a responsibility of a data analyst to ask counter questions and to clarify requirements. So its better to clarify things first, rather than asking them later! Thus we will be able to set realistics expectations. Last but not the least, a data anaylyst has to be very upfront and clear - For e.g., While working on the project a data analyst will not allow too many changes in the report (Feature Creep).
@@ -85,7 +86,7 @@ Fact table : It will have the data about the transactions. Fact tables store qua
       - **75** distinct customers thorough out the market
       - **2** types of platforms
         - Brick & Mortars - Physical/offline store
-        - E-commerce - Online Store (Amazon, flipkart)
+        - E-commerce - Online Store (Amazon, flipkart etc.)
       - Three channels
         - Retailer
         - Direct
@@ -109,35 +110,67 @@ Fact table : It will have the data about the transactions. Fact tables store qua
         - N & S
           - Networking
           - Storage
-      - There are 14 different categories, Like Internal HDD, keyboard
-      - There are different variants available for the same product
+      - There are 14 different categories, Like Internal HDD, keyboard etc.
+      - There are different variants available for the same product.
    - fact_forecast_monthly
      - This table is used to forecast the customer’s need in advance, which can help in
-        - Higher customer satisfaction
-        - Reduced cost in warehouses for storage purpose
+        - Higher customer satisfaction.
+        - Reduced cost in warehouses for storage purpose.
      - The table is denormalized by data engineering team, as it is a data warehouse which is aimed to be used for analytical work.
-    - All the date of the month will be replaced by the start date of the month
-    - It will have all the column names and in the end it will have the forecast quantity need of the customer
+    - All the date of the month will be replaced by the start date of the month.
+    - It will have all the column names and in the end it will have the forecast quantity need of the customer.
    - fact_sales_monthly
      - This table is more or less is same as fact_forecase_monthly table, but the last column has the value of sold quantity instead of forecast value.
   
 
  - gdb056
    - freight_cost
-      - This table has details of shipping and other cost for each market with fiscal year
+      - This table has details of shipping and other cost for each market with fiscal year.
    - gross_price
-      - Details of gross prices with product code
+      - Details of gross prices with product code.
    - manufacturing_cost
-     - Details of manufacturing cost with product code with year
+     - Details of manufacturing cost with product code with year.
    - Pre_invoice_dedutions
-     - Details of pre invoice deductions percentage for each cutomer with year
+     - Details of pre invoice deductions percentage for each cutomer with year.
    - Post_invoice_deductions
-     - Post invoice deductions and other deductions details
+     - Post invoice deductions and other deductions details.
 ### Importing Data to PowerBI
- - As the database is in MySQL for this project. We need to import the datasets from Mysql database to PowerBI by providing the Database access credentials using MySQL workbench
+ - As the database is in MySQL for this project. We need to import the datasets from Mysql database to PowerBI by providing the Database access credentials using MySQL workbench.
 ### Data Model
  - Data modeling is important because it helps organize and structure data, which improves data quality, reduces errors, and improves performance.
  - For this project [Snowflake](https://en.wikipedia.org/wiki/Snowflake_schema) Schema has been followed. 
+<img width="838" alt="Data_model" src="https://github.com/user-attachments/assets/8c5fd52d-8fa6-468a-a30c-09dc96a3f218" />
+
+### Moving to Dashboard Designing
+Mr. Nick Puri (Product Owner) has provided us with the visual mock ups. Based on which the data team will start designing the visuals and create measures as required.
+Mock ups given are as follows -
+ 
+<img width="838" alt="Finance_mockup" src="https://github.com/user-attachments/assets/b024fb1b-ff74-48db-b1b3-fe1188b0c636" />
+
+<img width="838" alt="Sales_mockup" src="https://github.com/user-attachments/assets/1b34e214-7055-4ac9-90df-e8ebccc1a277" />
+
+<img width="838" alt="Marketing_mockup" src="https://github.com/user-attachments/assets/854f957a-c12d-4a09-9101-541d22ad243f" />
+
+<img width="838" alt="Supply_Chain_mockup" src="https://github.com/user-attachments/assets/61255c82-04c4-4383-8b1e-aae80dc25d7d" />
+
+And after getting further feedback we also get another request to build an additional visual. Mockup is as follows - 
+
+<img width="838" alt="Executive_mockup" src="https://github.com/user-attachments/assets/72ac172f-f687-4057-b5a3-57d4e22030e5" />
+
+After long hours of hardwork. The Output - 
+
+Home View
+
+
+
+
+
+
+
+
+
+
+
 
 
 

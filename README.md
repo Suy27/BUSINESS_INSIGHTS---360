@@ -51,7 +51,7 @@ Live Report [Link](https://project.novypro.com/aq9kQE)
  - Net Sales (NS)
  - Net Profit (NP)
 
- - COGC - Cost Of Goods Sold
+ - COGS - Cost Of Goods Sold
  - YTD - Year To Date
  - YTG - Year To Go
  - Direct

@@ -5,6 +5,8 @@ My First Power BI Project.
 Thus, senior executives of this company have decided to invest in a data analytics project and have assigned a team for this work.
 
 I had completed this project by following the Codebasics PowerBI Course. You can check the course [here](https://codebasics.io/courses/power-bi-data-analysis-with-end-to-end-project).
+
+Live Report [Link](https://project.novypro.com/aq9kQE)
 ## Technology Implemented 
 - Project Charter (Mural)
 - SQL
